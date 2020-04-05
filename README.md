@@ -11,6 +11,7 @@ I had issues with local java/snowflake connection.  I hope this is a solution fo
 
 # Installation
 1. Install Docker (if you have not already)
+    https://docs.docker.com/install/ 
 2. Clone this repo to your local machine
 3. Open your terminal and navigate into the folder DockeR (relative paths require this)
 ```
