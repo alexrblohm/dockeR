@@ -1,0 +1,9 @@
+version: '3'
+services:
+    r_docker:
+        build: .
+        container_name: r_docker
+        ports:
+        - '50:8787'
+        volumes:
+        - '.:/home/rstudio/project'
