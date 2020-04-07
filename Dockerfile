@@ -1,8 +1,6 @@
 FROM rocker/verse
 COPY . /home/rstudio/project
 
-MAINTAINER 'Alex Blohm' alexrblohm@gmail.com
-
 ## copy files
 ADD install_packages.R /
 
